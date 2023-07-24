@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-22T16:27:30 IST" name="Suite" finished-at="2023-07-22T16:27:41 IST" duration-ms="10781">
+    <groups>
+    </groups>
+    <test started-at="2023-07-22T16:27:30 IST" name="Test" finished-at="2023-07-22T16:27:41 IST" duration-ms="10781">
+      <class name="Test.DeleteRequest">
+        <test-method is-config="true" signature="tokengenerate()[pri:0, instance:Test.DeleteRequest@229c6181]" started-at="2023-07-22T16:27:39 IST" name="tokengenerate" finished-at="2023-07-22T16:27:40 IST" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tokengenerate -->
+        <test-method signature="delete()[pri:8, instance:Test.DeleteRequest@229c6181]" started-at="2023-07-22T16:27:40 IST" name="delete" finished-at="2023-07-22T16:27:41 IST" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method is-config="true" signature="basic_Details()[pri:0, instance:Test.DeleteRequest@229c6181]" started-at="2023-07-22T16:27:40 IST" name="basic_Details" finished-at="2023-07-22T16:27:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basic_Details -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.DeleteRequest@229c6181]" started-at="2023-07-22T16:27:40 IST" name="startTest" finished-at="2023-07-22T16:27:40 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.DeleteRequest.delete()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.DeleteRequest@229c6181]" started-at="2023-07-22T16:27:41 IST" name="afterMethod" finished-at="2023-07-22T16:27:41 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=delete status=SUCCESS method=DeleteRequest.delete()[pri:8, instance:Test.DeleteRequest@229c6181] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Test.DeleteRequest -->
+      <class name="Test.PostRequest">
+        <test-method is-config="true" signature="tokengenerate()[pri:0, instance:Test.PostRequest@4d154ccd]" started-at="2023-07-22T16:27:36 IST" name="tokengenerate" finished-at="2023-07-22T16:27:37 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tokengenerate -->
+        <test-method is-config="true" signature="basic_Details()[pri:0, instance:Test.PostRequest@4d154ccd]" started-at="2023-07-22T16:27:37 IST" name="basic_Details" finished-at="2023-07-22T16:27:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basic_Details -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.PostRequest@4d154ccd]" started-at="2023-07-22T16:27:37 IST" name="startTest" finished-at="2023-07-22T16:27:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void Test.PostRequest.create()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="create()[pri:3, instance:Test.PostRequest@4d154ccd]" started-at="2023-07-22T16:27:37 IST" name="create" finished-at="2023-07-22T16:27:39 IST" duration-ms="1224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.PostRequest@4d154ccd]" started-at="2023-07-22T16:27:39 IST" name="afterMethod" finished-at="2023-07-22T16:27:39 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=create status=SUCCESS method=PostRequest.create()[pri:3, instance:Test.PostRequest@4d154ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Test.PostRequest -->
+      <class name="Test.GetRequest">
+        <test-method is-config="true" signature="init()[pri:0, instance:Test.GetRequest@6fdbe764]" started-at="2023-07-22T16:27:30 IST" name="init" finished-at="2023-07-22T16:27:30 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="tokengenerate()[pri:0, instance:Test.GetRequest@6fdbe764]" started-at="2023-07-22T16:27:30 IST" name="tokengenerate" finished-at="2023-07-22T16:27:33 IST" duration-ms="3248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tokengenerate -->
+        <test-method is-config="true" signature="basic_Details()[pri:0, instance:Test.GetRequest@6fdbe764]" started-at="2023-07-22T16:27:33 IST" name="basic_Details" finished-at="2023-07-22T16:27:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basic_Details -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.GetRequest@6fdbe764]" started-at="2023-07-22T16:27:33 IST" name="startTest" finished-at="2023-07-22T16:27:33 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void Test.GetRequest.getbooking()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="getbooking()[pri:1, instance:Test.GetRequest@6fdbe764]" started-at="2023-07-22T16:27:33 IST" name="getbooking" finished-at="2023-07-22T16:27:35 IST" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbooking -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.GetRequest@6fdbe764]" started-at="2023-07-22T16:27:35 IST" name="afterMethod" finished-at="2023-07-22T16:27:35 IST" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getbooking status=SUCCESS method=GetRequest.getbooking()[pri:1, instance:Test.GetRequest@6fdbe764] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="basic_Details()[pri:0, instance:Test.GetRequest@6fdbe764]" started-at="2023-07-22T16:27:35 IST" name="basic_Details" finished-at="2023-07-22T16:27:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basic_Details -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Test.GetRequest@6fdbe764]" started-at="2023-07-22T16:27:35 IST" name="startTest" finished-at="2023-07-22T16:27:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void Test.GetRequest.getbookingid()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="getbookingid()[pri:2, instance:Test.GetRequest@6fdbe764]" started-at="2023-07-22T16:27:35 IST" name="getbookingid" finished-at="2023-07-22T16:27:36 IST" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbookingid -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.GetRequest@6fdbe764]" started-at="2023-07-22T16:27:36 IST" name="afterMethod" finished-at="2023-07-22T16:27:36 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getbookingid status=SUCCESS method=GetRequest.getbookingid()[pri:2, instance:Test.GetRequest@6fdbe764] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Test.GetRequest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
